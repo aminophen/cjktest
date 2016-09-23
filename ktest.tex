@@ -1,0 +1,53 @@
+\documentclass[a4paper,uplatex]{jsarticle}
+\usepackage[english]{babel}
+\usepackage[main=japanese]{pxbabel}
+\begin{document}
+ああああああああああああ\par
+\foreignlanguage{korean}{내가득합니다}%
+\foreignlanguage{korean}{\textgt{내가득합니다}}\par
+ああああああああああああああああああ\par
+\foreignlanguage{korean}{째째째째째째째째째째째째째째째째째째}\par
+\foreignlanguage{korean}{뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬}\par
+\foreignlanguage{korean}{오오오오오오오오오오오오오오오오오오}\par
+\foreignlanguage{korean}{이이이이이이이이이이이이이이이이이이}\par
+\foreignlanguage{korean}{□■□■□■□■□■□■□■□■□■}\par
+\foreignlanguage{korean}{\textgt{째째째째째째째째째째째째째째째째째째}}\par
+\foreignlanguage{korean}{\textgt{뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬뻬}}\par
+\foreignlanguage{korean}{\textgt{오오오오오오오오오오오오오오오오오오}}\par
+\foreignlanguage{korean}{\textgt{이이이이이이이이이이이이이이이이이이}}\par
+\foreignlanguage{korean}{\textgt{□■□■□■□■□■□■□■□■□■}}
+\end{document}
+
+*** free korean fonts ***
+
+baekmuk
+\AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H batang.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-V batang.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H dotum.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V dotum.ttf}}
+
+unfonts-core
+\AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H UnBatang.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-V UnBatang.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H UnDotum.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V UnDotum.ttf}}
+
+nanum (proportional; NG)
+\AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H :0:NanumMyeongjo.ttc}}
+\AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-V :0:NanumMyeongjo.ttc}}
+\AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H :0:NanumGothic.ttc}}
+\AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V :0:NanumGothic.ttc}}
+
+*** nonfree korean fonts ***
+
+apple
+\AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H AppleMyungjo.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-H AppleMyungjo.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H AppleGothic.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-H AppleGothic.ttf}}
+
+adobe
+\AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H AdobeMyungjoStd-Medium.otf}}
+\AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-V AdobeMyungjoStd-Medium.otf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H AdobeGothicStd-Bold.otf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V AdobeGothicStd-Bold.otf}}
