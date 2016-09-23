@@ -3,7 +3,7 @@
 
 ## Korean fonts: free
 
-- unfonts-core (TrueType fonts; TeX Live r42101)
+### unfonts-core (TrueType fonts; TeX Live r42101)
 
 PSName for UnDinaruLight.ttf seems wrong.
 
@@ -22,7 +22,7 @@ PSName for UnDinaruLight.ttf seems wrong.
 |UnPilgi.ttf|Un Pilgi|UnPilgi|
 |UnPilgiBold.ttf|Un Pilgi Bold|UnPilgi-Bold|
 
-- unfonts-extra (TrueType fonts; TeX Live r42102)
+### unfonts-extra (TrueType fonts; TeX Live r42102)
 
 Note that UnJamo... family has proportional metrics (unavailable in pTeX/upTeX)
 
@@ -41,7 +41,7 @@ Note that UnJamo... family has proportional metrics (unavailable in pTeX/upTeX)
 |UnYetgul.ttf|Un Yetgul|UnYetgul|
 |UnTaza.ttf|Un Taza|UnTaza|
 
-- baekmuk (TrueType fonts; TeX Live r42106)
+### baekmuk (TrueType fonts; TeX Live r42106)
 
 |FileName|FullFontName|PostScriptName|
 |:--|:--|:--|
@@ -53,16 +53,17 @@ Note that UnJamo... family has proportional metrics (unavailable in pTeX/upTeX)
 
 ## Korean fonts: non-free
 
-- adobe (OpenType fonts; Adobe Acrobat)
+### adobe (OpenType fonts; Adobe Acrobat)
 
 |FileName|FullFontName|PostScriptName|
 |:--|:--|:--|
 |AdobeMingStd-Light.otf|Adobe Ming Std L|AdobeMingStd-Light|
 |AdobeGothicStd-Bold.otf|Adobe Gothic Std B|AdobeGothicStd-Bold|
 
-- apple (TrueType fonts; Apple Mac OS X)
-    - OS X Lion (10.7.5): `/Library/Fonts/AppleMyungjo.ttf`, `/System/Library/Fonts/AppleGothic.ttf`
-    - OS X El Capitan (10.11.0): `/Library/Fonts/AppleMyungjo.ttf`, `/Library/Fonts/AppleGothic.ttf`
+### apple (TrueType fonts; Apple Mac OS X)
+
+- OS X Lion (10.7.5): `/Library/Fonts/AppleMyungjo.ttf`, `/System/Library/Fonts/AppleGothic.ttf`
+- OS X El Capitan (10.11.0): `/Library/Fonts/AppleMyungjo.ttf`, `/Library/Fonts/AppleGothic.ttf`
 
 |FileName|FullFontName|PostScriptName|
 |:--|:--|:--|
