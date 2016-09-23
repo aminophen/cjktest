@@ -1,1 +1,70 @@
 # cjktest
+
+
+## Korean fonts: free
+
+- unfonts-core (TrueType fonts; TeX Live r42101)
+
+PSName for UnDinaruLight.ttf seems wrong.
+
+|FileName|FullFontName|PostScriptName|
+|:--|:--|:--|
+|UnBatang.ttf|Un Batang|UnBatang|
+|UnBatangBold.ttf|Un Batang Bold|UnBatang-Bold|
+|UnDinaru.ttf|Un Dinaru|UnDinaru|
+|UnDinaruBold.ttf|Un Dinaru Bold|UnDinaru-Bold|
+|UnDinaruLight.ttf|Un Dinaru Light|UnDinaru-Bold|
+|UnDotum.ttf|Un Dotum|UnDotum|
+|UnDotumBold.ttf|Un Dotum Bold|UnDotum-Bold|
+|UnGraphic.ttf|Un Graphic|UnGraphic|
+|UnGraphicBold.ttf|Un Graphic Bold|UnGraphic-Bold|
+|UnGungseo.ttf|Un Gungseo|UnGungseo|
+|UnPilgi.ttf|Un Pilgi|UnPilgi|
+|UnPilgiBold.ttf|Un Pilgi Bold|UnPilgi-Bold|
+
+- unfonts-extra (TrueType fonts; TeX Live r42102)
+
+Note that UnJamo... family has proportional metrics (unavailable in pTeX/upTeX)
+
+|FileName|FullFontName|PostScriptName|
+|:--|:--|:--|
+|UnBom.ttf|Un Bom|UnBom|
+|UnJamoBatang.ttf|Un Jamo Batang|UnJamoBatang|
+|UnJamoDotum.ttf|Un Jamo Dotum|UnJamoDotum|
+|UnJamoNovel.ttf|Un Jamo Novel|UnJamoNovel|
+|UnJamoSora.ttf|Un Jamo Sora|UnJamoSora|
+|UnPen.ttf|Un Pen|UnPen|
+|UnPenheulim.ttf|Un Penheulim|UnPenheulim|
+|UnPilgia.ttf|Un Pilgia|UnPilgia|
+|UnShinmun.ttf|Un Shinmun|UnShinmun|
+|UnVada.ttf|Un Vada|UnVada|
+|UnYetgul.ttf|Un Yetgul|UnYetgul|
+|UnTaza.ttf|Un Taza|UnTaza|
+
+- baekmuk (TrueType fonts; TeX Live r42106)
+
+|FileName|FullFontName|PostScriptName|
+|:--|:--|:--|
+|batang.ttf|Baekmuk Batang|Baekmuk-Batang|
+|dotum.ttf|Baekmuk Dotum|Baekmuk-Dotum|
+|gulim.ttf|Baekmuk Gulim|Baekmuk-Gulim|
+|hline.ttf|Baekmuk Headline|Baekmuk-Headline|
+
+
+## Korean fonts: non-free
+
+- adobe (OpenType fonts; Adobe Acrobat)
+
+|FileName|FullFontName|PostScriptName|
+|:--|:--|:--|
+|AdobeMingStd-Light.otf|Adobe Ming Std L|AdobeMingStd-Light|
+|AdobeGothicStd-Bold.otf|Adobe Gothic Std B|AdobeGothicStd-Bold|
+
+- apple (TrueType fonts; Apple Mac OS X)
+    - OS X Lion (10.7.5): `/Library/Fonts/AppleMyungjo.ttf`, `/System/Library/Fonts/AppleGothic.ttf`
+    - OS X El Capitan (10.11.0): `/Library/Fonts/AppleMyungjo.ttf`, `/Library/Fonts/AppleGothic.ttf`
+
+|FileName|FullFontName|PostScriptName|
+|:--|:--|:--|
+|AppleGothic.ttf|AppleGothic Regular|AppleGothic|
+|AppleMyungjo.ttf|AppleMyungjo Regular|AppleMyungjo|
