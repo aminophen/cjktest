@@ -50,6 +50,21 @@ Note that UnJamo... family has proportional metrics (unavailable in pTeX/upTeX)
 |gulim.ttf|Baekmuk Gulim|Baekmuk-Gulim|
 |hline.ttf|Baekmuk Headline|Baekmuk-Headline|
 
+### nanum (TrueType fonts)
+
+Note that all these families have proportional metrics (unavailable in pTeX/upTeX)
+
+|FileName|TTC Index|FullFontName|PostScriptName|
+|:--|:--|:--|:--|
+|NanumMyeongjo.ttc|0|NanumMyeongjo|NanumMyeongjo|
+||1|NanumMyeongjo Bold|NanumMyeongjoBold|
+||2|NanumMyeongjo ExtraBold|NanumMyeongjoExtraBold|
+|NanumGothic.ttc|0|NanumGothic|NanumGothic|
+||1|NanumGothic Bold|NanumGothicBold|
+||2|NanumGothic ExtraBold|NanumGothicExtraBold|
+|NanumScript.ttc|0|Nanum Brush Script|NanumBrush|
+||1|Nanum Pen Script|NanumPen|
+
 
 ## Korean fonts: non-free
 
