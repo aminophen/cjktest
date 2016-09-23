@@ -52,6 +52,8 @@ Note that UnJamo... family has proportional metrics (unavailable in pTeX/upTeX)
 
 ### nanum (TrueType fonts)
 
+- OS X Lion (10.7.5): `/Library/Fonts/NanumMyeongjo.ttc`, `/System/Library/Fonts/NanumGothic.ttc`, `/Library/Fonts/NanumScript.ttc`
+
 Note that all these families have proportional metrics (unavailable in pTeX/upTeX)
 
 |FileName|TTC Index|FullFontName|PostScriptName|
@@ -84,3 +86,12 @@ Note that all these families have proportional metrics (unavailable in pTeX/upTe
 |:--|:--|:--|
 |AppleGothic.ttf|AppleGothic Regular|AppleGothic|
 |AppleMyungjo.ttf|AppleMyungjo Regular|AppleMyungjo|
+
+### ms-osx (TrueType fonts; Office for Mac 2011)
+
+- Office for Mac 2011: `/Library/Fonts/Microsoft/Batang.ttf`, `/Library/Fonts/Microsoft/Gulim.ttf`
+
+|FileName|FullFontName|PostScriptName|
+|:--|:--|:--|
+|Batang.ttf|Batang|Batang|
+|Gulim.ttf|Gulim|Gulim|
