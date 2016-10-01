@@ -94,3 +94,16 @@ Note that all these families have proportional metrics (unavailable in pTeX/upTe
 |:--|:--|:--|
 |Batang.ttf|Batang|Batang|
 |Gulim.ttf|Gulim|Gulim|
+
+### solaris (TrueType fonts; Solaris 10/11)
+
+- Solaris 11: `/usr/share/fonts/TrueType/*.ttf`
+
+|FileName|FullFontName|PostScriptName|
+|:--|:--|:--|
+|h2mjsm.ttf|Myeongjo|Myeongjo|
+|h2gtrm.ttf|Gothic|Gothic|
+|h2drrm.ttf|RoundedGothic|RoundedGothic|
+|h2hsrm.ttf|Haeseo|Haeseo|
+|sundotump.ttf|SunDotum|SunDotum|
+|sundotumf.ttf|SunDotumChe|SunDotumChe|
