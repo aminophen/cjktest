@@ -97,7 +97,7 @@ Note that all these families have proportional metrics (unavailable in pTeX/upTe
 
 ### solaris (TrueType fonts; Solaris 10/11)
 
-- Solaris 11: `/usr/share/fonts/TrueType/*.ttf`
+- Solaris 11: `/usr/share/fonts/TrueType/hanyang/*.ttf`
 
 |FileName|FullFontName|PostScriptName|
 |:--|:--|:--|
