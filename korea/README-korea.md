@@ -94,7 +94,7 @@ Note that all these families have narrow metrics (unavailable in pTeX/upTeX)
 
 ### nanum osx bundle (TrueType fonts; converted to ttc)
 
-- OS X Lion (10.7.5): `/Library/Fonts/*.ttc`
+- OS X Lion (10.7.5), OS X El Capitan (10.11.6): `/Library/Fonts/*.ttc`
 
 Note that all these families have narrow metrics (unavailable in pTeX/upTeX)
 
@@ -122,7 +122,7 @@ Note that all these families have narrow metrics (unavailable in pTeX/upTeX)
 ### apple (TrueType fonts; Apple Mac OS X)
 
 - OS X Lion (10.7.5): `/Library/Fonts/AppleMyungjo.ttf`, `/System/Library/Fonts/AppleGothic.ttf`
-- OS X El Capitan (10.11.0): `/Library/Fonts/AppleMyungjo.ttf`, `/Library/Fonts/AppleGothic.ttf`
+- OS X El Capitan (10.11.6): `/Library/Fonts/AppleMyungjo.ttf`, `/Library/Fonts/AppleGothic.ttf`
 
 |FileName|FullFontName|PostScriptName|
 |:--|:--|:--|
