@@ -1,8 +1,12 @@
 # Korean fonts
 
+
 ## free
 
 ### unfonts-core (TrueType fonts; TeX Live r42101)
+
+- TeX Live: `TEXMF/fonts/truetype/public/unfonts-core/*.ttf`
+- Debian: `/usr/share/fonts/truetype/unfonts-core/*.ttf`
 
 PSName for UnDinaruLight.ttf seems wrong.
 
@@ -23,6 +27,9 @@ PSName for UnDinaruLight.ttf seems wrong.
 
 ### unfonts-extra (TrueType fonts; TeX Live r42102)
 
+- TeX Live: `TEXMF/fonts/truetype/public/unfonts-extra/*.ttf`
+- Debian: `/usr/share/fonts/truetype/unfonts-extra/*.ttf` (except UnBom.ttf)
+
 Note that UnJamo... family has proportional metrics (unavailable in pTeX/upTeX)
 
 |FileName|FullFontName|PostScriptName|
@@ -42,6 +49,9 @@ Note that UnJamo... family has proportional metrics (unavailable in pTeX/upTeX)
 
 ### baekmuk (TrueType fonts; TeX Live r42106)
 
+- TeX Live: `TEXMF/fonts/truetype/public/baekmuk/*.ttf`
+- Debian: `/usr/share/fonts/truetype/baekmuk/*.ttf`
+
 |FileName|FullFontName|PostScriptName|
 |:--|:--|:--|
 |batang.ttf|Baekmuk Batang|Baekmuk-Batang|
@@ -51,9 +61,42 @@ Note that UnJamo... family has proportional metrics (unavailable in pTeX/upTeX)
 
 ### nanum (TrueType fonts)
 
+- Debian: `/usr/share/fonts/truetype/nanum/*.ttf`
+
+Note that all these families have narrow metrics (unavailable in pTeX/upTeX)
+
+|FileName|FullFontName|PostScriptName|
+|:--|:--|:--|
+|NanumMyeongjo.ttf|NanumMyeongjo|NanumMyeongjo|
+|NanumMyeongjoBold.ttf|NanumMyeongjo Bold|NanumMyeongjoBold|
+|NanumGothic.ttf|NanumGothic|NanumGothic|
+|NanumGothicBold.ttf|NanumGothic Bold|NanumGothicBold|
+|NanumBarunGothic.ttf|NanumBarunGothic|NanumBarunGothic|
+|NanumBarunGothicBold.ttf|NanumBarunGothic Bold|NanumBarunGothicBold|
+
+### nanum-extra (TrueType fonts)
+
+- Debian: `/usr/share/fonts/truetype/nanum/*.ttf`
+
+Note that all these families have narrow metrics (unavailable in pTeX/upTeX)
+
+|FileName|FullFontName|PostScriptName|
+|:--|:--|:--|
+|NanumMyeongjoExtraBold.ttf|NanumMyeongjo ExtraBold|NanumMyeongjoExtraBold|
+|NanumGothicExtraBold.ttf|NanumGothic ExtraBold|NanumGothicExtraBold|
+|NanumGothicLight.ttf|NanumGothic Light|NanumGothicLight|
+|NanumBarunGothicLight.ttf|NanumBarunGothic Light|NanumBarunGothicLight|
+|NanumBarunGothicUltraLight.ttf|NanumBarunGothic UltraLight|NanumBarunGothicUltraLight|
+|NanumBarunpenR.ttf|NanumBarunpen|NanumBarunpen|
+|NanumBarunpenB.ttf|NanumBarunpen Bold|NanumBarunpen-Bold|
+|NanumBrush.ttf|Nanum Brush Script|NanumBrush|
+|NanumPen.ttf|Nanum Pen Script|NanumPen|
+
+### nanum osx bundle (TrueType fonts; converted to ttc)
+
 - OS X Lion (10.7.5): `/Library/Fonts/NanumMyeongjo.ttc`, `/System/Library/Fonts/NanumGothic.ttc`, `/Library/Fonts/NanumScript.ttc`
 
-Note that all these families have proportional metrics (unavailable in pTeX/upTeX)
+Note that all these families have narrow metrics (unavailable in pTeX/upTeX)
 
 |FileName|TTC Index|FullFontName|PostScriptName|
 |:--|:--|:--|:--|
