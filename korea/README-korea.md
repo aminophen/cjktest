@@ -94,7 +94,7 @@ Note that all these families have narrow metrics (unavailable in pTeX/upTeX)
 
 ### nanum osx bundle (TrueType fonts; converted to ttc)
 
-- OS X Lion (10.7.5): `/Library/Fonts/NanumMyeongjo.ttc`, `/System/Library/Fonts/NanumGothic.ttc`, `/Library/Fonts/NanumScript.ttc`
+- OS X Lion (10.7.5): `/Library/Fonts/*.ttc`
 
 Note that all these families have narrow metrics (unavailable in pTeX/upTeX)
 
