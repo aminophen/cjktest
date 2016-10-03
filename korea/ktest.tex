@@ -20,23 +20,35 @@
 
 *** free korean fonts ***
 
-baekmuk
-\AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H batang.ttf}}
-\AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-V batang.ttf}}
-\AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H dotum.ttf}}
-\AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V dotum.ttf}}
-
 unfonts-core
 \AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H UnBatang.ttf}}
 \AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-V UnBatang.ttf}}
 \AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H UnDotum.ttf}}
 \AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V UnDotum.ttf}}
 
-nanum (proportional; NG) osx bundle
+baekmuk
+\AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H batang.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-V batang.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H dotum.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V dotum.ttf}}
+
+nanum (narrow; NG)
+\AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H NanumMyeongjo.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-V NanumMyeongjo.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H NanumGothic.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V NanumGothic.ttf}}
+
+nanum-osx (narrow; NG)
 \AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H :0:NanumMyeongjo.ttc}}
 \AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-V :0:NanumMyeongjo.ttc}}
 \AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H :0:NanumGothic.ttc}}
 \AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V :0:NanumGothic.ttc}}
+
+hcr (narrow; NG)
+\AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H HANBatang.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-V HANBatang.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H HANDotum.ttf}}
+\AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V HANDotum.ttf}}
 
 *** nonfree korean fonts ***
 
@@ -52,8 +64,17 @@ adobe
 \AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H AdobeGothicStd-Bold.otf}}
 \AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V AdobeGothicStd-Bold.otf}}
 
-solaris (nonfree, but available even with free edition)
+*** special case (some restriction, etc) ***
+
+solaris (nonfree, but available with free edition)
 \AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H h2mjsm.ttf}}
 \AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-V h2mjsm.ttf}}
 \AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H h2gtrm.ttf}}
 \AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V h2gtrm.ttf}}
+
+haansoft (nonfree, but available as part of free viewers)
+=== Warning: licensed only for use with Hancom Office ===
+\AtBeginDvi{\special{pdf:mapline uphysmjm-h UniKS-UTF16-H HBATANG.TTF}}
+\AtBeginDvi{\special{pdf:mapline uphysmjm-v UniKS-UTF16-V HBATANG.TTF}}
+\AtBeginDvi{\special{pdf:mapline uphygt-h UniKS-UTF16-H HDOTUM.TTF}}
+\AtBeginDvi{\special{pdf:mapline uphygt-v UniKS-UTF16-V HDOTUM.TTF}}
