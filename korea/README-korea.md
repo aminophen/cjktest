@@ -207,5 +207,7 @@ so it is forbidden to use these fonts with TeX/Ghostscript.
     - Ubuntu package: `hwpviewer_9.20.0.346_i386.deb`
 - License information: http://www.hancom.com/notice.noticeView.do?notice_seqno=203
 
+|FileName|FullFontName|PostScriptName|
+|:--|:--|:--|
 |HBATANG.TTF|Haansoft Batang|Haansoft Batang|
 |HDOTUM.TTF|Haansoft Dotum|Haansoft Dotum|
